@@ -59,6 +59,13 @@ footer {
 /* Change the background colors below */
 
 @media (min-width: 768px) {
+
+  #wrapper {
+    width: 100%;
+    min-width: 768px;
+    margin: 0 auto;
+  }
+
   header {
     background-color: #ee5745 ;
   }
@@ -79,13 +86,29 @@ footer {
     background-color: tomato ;
   }
 
+  .col-3 {
+    width: 33.33%;
+  }
+
 }
 
 
 /*---------- Desktops ----------*/
 @media (min-width: 1200px) {
+
+  #wrapper {
+    width: 100%;
+    min-width: 1200px;
+    margin: 0 auto;
+  }
+
   header {
     background-color: tomato;
+  }
+
+  .col-3 {
+    width: 33.33%;
+    float: left;
   }
 
   #column-1 {
@@ -93,7 +116,7 @@ footer {
   }
 
   #column-2 {
-    background-color: #dd0835;
+    background-color: blue;
   }
 
   #column-3 {
